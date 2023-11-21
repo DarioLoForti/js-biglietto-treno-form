@@ -33,8 +33,9 @@ bottone.addEventListener("click", function(){
 
     let prezzo = prezzo_biglietto.toFixed(2);
     console.log(prezzo);
-    
+
     document.getElementById("prezzo-biglietto").innerHTML = prezzo + "€";
+    document.getElementById("nome-passeggero").innerHTML = nome;
 
 })
 
